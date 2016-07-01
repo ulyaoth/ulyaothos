@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps
+  PUBLIC '-//Red Hat, Inc.//DTD Comps info//EN'
+  'comps.dtd'>
+<comps>
+  <group>
+    <id>buildsys-build</id>
+    <name>Buildsys Build</name>
+    <name xml:lang="en_GB">Buildsys Build</name>
+    <description/>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">bash</packagereq>
+      <packagereq type="mandatory">bzip2</packagereq>
+      <packagereq type="mandatory">coreutils</packagereq>
+      <packagereq type="mandatory">cpio</packagereq>
+      <packagereq type="mandatory">diffutils</packagereq>
+      <packagereq type="mandatory">fedora-release</packagereq>
+      <packagereq type="mandatory">findutils</packagereq>
+      <packagereq type="mandatory">gawk</packagereq>
+      <packagereq type="mandatory">gcc</packagereq>
+      <packagereq type="mandatory">gcc-c++</packagereq>
+      <packagereq type="mandatory">grep</packagereq>
+      <packagereq type="mandatory">gzip</packagereq>
+      <packagereq type="mandatory">info</packagereq>
+      <packagereq type="mandatory">make</packagereq>
+      <packagereq type="mandatory">patch</packagereq>
+      <packagereq type="mandatory">redhat-rpm-config</packagereq>
+      <packagereq type="mandatory">rpm-build</packagereq>
+      <packagereq type="mandatory">sed</packagereq>
+      <packagereq type="mandatory">shadow-utils</packagereq>
+      <packagereq type="mandatory">tar</packagereq>
+      <packagereq type="mandatory">unzip</packagereq>
+      <packagereq type="mandatory">util-linux</packagereq>
+      <packagereq type="mandatory">which</packagereq>
+      <packagereq type="mandatory">xz</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>anaconda-tools</id>
+    <name>Anaconda tools</name>
+    <name xml:lang="en_GB">Anaconda tools</name>
+    <description/>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">authconfig</packagereq>
+      <packagereq type="mandatory">btrfs-progs</packagereq>
+      <packagereq type="mandatory">chrony</packagereq>
+      <packagereq type="mandatory">cryptsetup</packagereq>
+      <packagereq type="mandatory">device-mapper-multipath</packagereq>
+      <packagereq type="mandatory">dmraid</packagereq>
+      <packagereq type="mandatory">dosfstools</packagereq>
+      <packagereq type="mandatory">dracut-network</packagereq>
+      <packagereq type="mandatory">e2fsprogs</packagereq>
+      <packagereq type="mandatory">efibootmgr</packagereq>
+      <packagereq type="mandatory">extlinux-bootloader</packagereq>
+      <packagereq type="mandatory">fcoe-utils</packagereq>
+      <packagereq type="mandatory">firewalld</packagereq>
+      <packagereq type="mandatory">gfs2-utils</packagereq>
+      <packagereq type="mandatory">glibc-langpack-en</packagereq>
+      <packagereq type="mandatory">grub2</packagereq>
+      <packagereq type="mandatory">grub2-efi</packagereq>
+      <packagereq type="mandatory">hfsplus-tools</packagereq>
+      <packagereq type="mandatory">iscsi-initiator-utils</packagereq>
+      <packagereq type="mandatory">lvm2</packagereq>
+      <packagereq type="mandatory">mactel-boot</packagereq>
+      <packagereq type="mandatory">mdadm</packagereq>
+      <packagereq type="mandatory">ntfsprogs</packagereq>
+      <packagereq type="mandatory">realmd</packagereq>
+      <packagereq type="mandatory">reiserfs-utils</packagereq>
+      <packagereq type="mandatory">s390utils</packagereq>
+      <packagereq type="mandatory">s390utils-base</packagereq>
+      <packagereq type="mandatory">shim</packagereq>
+      <packagereq type="mandatory">syslinux-extlinux</packagereq>
+      <packagereq type="mandatory">teamd</packagereq>
+      <packagereq type="mandatory">xfsprogs</packagereq>
+    </packagelist>
+  </group>
+  <group>
+    <id>core</id>
+    <name>Core</name>
+    <name xml:lang="en_GB">Core</name>
+    <description>Smallest possible installation</description>
+     <description xml:lang="en_GB">Smallest possible installation</description>
+    <default>true</default>
+    <uservisible>false</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">audit</packagereq>
+      <packagereq type="mandatory">basesystem</packagereq>
+      <packagereq type="mandatory">bash</packagereq>
+      <packagereq type="mandatory">coreutils</packagereq>
+      <packagereq type="mandatory">cronie</packagereq>
+      <packagereq type="mandatory">curl</packagereq>
+      <packagereq type="mandatory">dhcp-client</packagereq>
+      <packagereq type="mandatory">dnf</packagereq>
+      <packagereq type="mandatory">dnf-yum</packagereq>
+      <packagereq type="mandatory">e2fsprogs</packagereq>
+      <packagereq type="mandatory">filesystem</packagereq>
+      <packagereq type="mandatory">glibc</packagereq>
+      <packagereq type="mandatory">grubby</packagereq>
+      <packagereq type="mandatory">hostname</packagereq>
+      <packagereq type="mandatory">initscripts</packagereq>
+      <packagereq type="mandatory">iproute</packagereq>
+      <packagereq type="mandatory">iputils</packagereq>
+      <packagereq type="mandatory">kbd</packagereq>
+      <packagereq type="mandatory">less</packagereq>
+      <packagereq type="mandatory">man-db</packagereq>
+      <packagereq type="mandatory">ncurses</packagereq>
+      <packagereq type="mandatory">openssh-clients</packagereq>
+      <packagereq type="mandatory">openssh-server</packagereq>
+      <packagereq type="mandatory">parted</packagereq>
+      <packagereq type="mandatory">passwd</packagereq>
+      <packagereq type="mandatory">plymouth</packagereq>
+      <packagereq type="mandatory">policycoreutils</packagereq>
+      <packagereq type="mandatory">procps-ng</packagereq>
+      <packagereq type="mandatory">rootfiles</packagereq>
+      <packagereq type="mandatory">rpm</packagereq>
+      <packagereq type="mandatory">selinux-policy-targeted</packagereq>
+      <packagereq type="mandatory">setup</packagereq>
+      <packagereq type="mandatory">shadow-utils</packagereq>
+      <packagereq type="mandatory">sudo</packagereq>
+      <packagereq type="mandatory">systemd</packagereq>
+      <packagereq type="mandatory">util-linux</packagereq>
+      <packagereq type="mandatory">vim-minimal</packagereq>
+      <packagereq type="default">NetworkManager</packagereq>
+      <packagereq type="default">authconfig</packagereq>
+      <packagereq type="default">dnf-plugins-core</packagereq>
+      <packagereq type="default">dracut-config-rescue</packagereq>
+      <packagereq type="default">firewalld</packagereq>
+      <packagereq type="default">ppc64-utils</packagereq>
+      <packagereq type="optional">dracut-config-generic</packagereq>
+      <packagereq type="optional">initial-setup</packagereq>
+      <packagereq type="optional">uboot-tools</packagereq>
+      <packagereq type="optional">btrfs-progs</packagereq>
+    </packagelist>
+  </group>
+  <environment>
+    <id>ulyaothos</id>
+    <name>UlyaothOS</name>
+    <name xml:lang="en_GB">UlyaothOS</name>
+    <description>UlyaothOS Installation</description>
+    <description xml:lang="en_GB">UlyaothOS Installation</description>
+    <display_order>1</display_order>
+    <grouplist>
+      <groupid>core</groupid>
+    </grouplist>
+  </environment>
+</comps>

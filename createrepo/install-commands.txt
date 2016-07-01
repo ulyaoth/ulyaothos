@@ -1,0 +1,6 @@
+mock -r ulyaoth-x86_64 --init
+mock -r ulyaoth-x86_64 --install spin-kickstarts pungi ${EDITOR:-vi}
+mock -r ulyaoth-x86_64 --shell
+vi /usr/share/spin-kickstarts/install-ulyaoth.ks
+DVD: pungi --nosource --nodebuginfo --name Ulyaoth -c /usr/share/spin-kickstarts/install-ulyaoth.ks
+BOOTONLY: pungi --nosource --nodebuginfo -G -C -B --name Ulyaoth -c /usr/share/spin-kickstarts/install-ulyaoth.ks
