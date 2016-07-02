@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE comps
-  PUBLIC '-//Red Hat, Inc.//DTD Comps info//EN'
+  PUBLIC '-//Ulyaoth//DTD Comps info//EN'
   'comps.dtd'>
 <comps>
   <group>
@@ -16,7 +16,7 @@
       <packagereq type="mandatory">coreutils</packagereq>
       <packagereq type="mandatory">cpio</packagereq>
       <packagereq type="mandatory">diffutils</packagereq>
-      <packagereq type="mandatory">fedora-release</packagereq>
+      <packagereq type="mandatory">ulyaoth-release</packagereq>
       <packagereq type="mandatory">findutils</packagereq>
       <packagereq type="mandatory">gawk</packagereq>
       <packagereq type="mandatory">gcc</packagereq>

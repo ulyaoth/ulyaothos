@@ -12,8 +12,10 @@ repo --name=ulyaoth --baseurl=https://repos.ulyaoth.net/ulyaothos/x86_64/os/
 
 ## Add Generic packages and remove fedora packages. 
 generic-logos
-generic-release
-generic-release-notes
+ulyaoth-release
+ulyaoth-release-notes
+-generic-release
+-generic-release-notes
 -fedora-logos
 -fedora-release
 -fedora-release-notes
