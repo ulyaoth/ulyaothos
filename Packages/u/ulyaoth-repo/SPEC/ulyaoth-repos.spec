@@ -1,3 +1,5 @@
+%define debug_package %{nil}
+
 Summary: Ulyaoth package repositories
 Name: ulyaoth-repos
 Version: 20160702

@@ -1,3 +1,4 @@
+%define debug_package %{nil}
 %global release_name Ulyaoth
 %global dist_version 20160702
 
