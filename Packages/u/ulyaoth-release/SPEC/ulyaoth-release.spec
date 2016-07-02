@@ -30,7 +30,8 @@ Ulyaoth release files such as yum configs and various /etc/ files that define th
 Summary:	Release Notes
 License:	Open Publication
 Group:		System Environment/Base
-Provides:	system-release-notes = %{version}-%{release}
+Provides:	system-release-notes
+Provides:	ulyaoth-release-notes
 
 %description notes
 Ulyaoth release notes package.
