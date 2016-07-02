@@ -90,7 +90,7 @@ rm -rf %{buildroot}
 %config %attr(0644,root,root) /usr/lib/os-release
 /etc/os-release
 %config %attr(0644,root,root) /etc/ulyaoth-release
-/etc/fedora/release
+/etc/fedora-release
 /etc/redhat-release
 /etc/system-release
 %config %attr(0644,root,root) /etc/system-release-cpe
