@@ -16,6 +16,7 @@ Source3: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/u
 Source4: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/85-display-manager.preset
 Source5: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/90-default.preset
 Source6: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/99-default-disable.preset
+Provides: ulyaoth-release
 Provides: redhat-release
 Provides: fedora-release
 Provides: system-release
