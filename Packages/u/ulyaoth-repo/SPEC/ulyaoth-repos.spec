@@ -6,8 +6,8 @@ License: GPLv3
 Group: System Environment/Base
 URL: https://www.ulyaoth.net
 Source0: https://repos.ulyaoth.net/RPM-GPG-KEY-ulyaoth
-Source1: https://raw.githubusercontent.com/ulyaoth/repository/master/ulyaoth/SOURCES/ulyaoth.repo
-Source2: https://raw.githubusercontent.com/ulyaoth/repository/master/ulyaoth/SOURCES/COPYING
+Source1: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-repo/SOURCE/ulyaoth.repo
+Source2: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-repo/SOURCE/COPYING
 Provides: ulyaoth-repos
 Requires: ulyaoth-release
 BuildArch: x86_64

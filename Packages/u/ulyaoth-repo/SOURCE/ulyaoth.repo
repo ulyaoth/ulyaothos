@@ -23,7 +23,7 @@ skip_if_unavailable=False
 [ulyaoth-source]
 name=Ulyaoth - Source
 failovermethod=priority
-baseurl=https://repos.ulyaoth.net/ulyaothos/source/SRPMS/
+baseurl=https://repos.ulyaoth.net/ulyaothos/source/
 #metalink=
 enabled=0
 metadata_expire=7d
