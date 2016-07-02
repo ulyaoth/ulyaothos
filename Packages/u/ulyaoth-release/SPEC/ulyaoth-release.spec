@@ -8,13 +8,13 @@ Release: 1%{?dist}
 License: GPLv3
 Group: System Environment/Base
 URL: https://www.ulyaoth.net
-Source0: LICENSE
-Source1: README.developers
-Source2: README.Ulyoath-Release-Notes
-Source3: README.license
-Source4: 85-display-manager.preset
-Source5: 90-default.preset
-Source6: 99-default-disable.preset
+Source0: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/LICENSE
+Source1: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/README.developers
+Source2: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/README.Ulyaoth-Release-Notes
+Source3: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/README.license
+Source4: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/85-display-manager.preset
+Source5: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/90-default.preset
+Source6: https://raw.githubusercontent.com/ulyaoth/ulyaothos/master/Packages/u/ulyaoth-release/SOURCE/99-default-disable.preset
 Provides: redhat-release
 Provides: fedora-release
 Provides: system-release
@@ -107,4 +107,4 @@ rm -rf %{buildroot}
 
 %changelog
 * Sat Jul 2 2016 Sjir Bagmeijer <sbagmeijer@ulyaoth.net> - 20160702-1
-- f24 isn't rawhide any more
+- Initial Release based on Fedora 24 spec file.
