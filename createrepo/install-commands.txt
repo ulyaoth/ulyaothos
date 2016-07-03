@@ -2,6 +2,6 @@ mock -r ulyaoth-x86_64 --init
 mock -r ulyaoth-x86_64 --install spin-kickstarts pungi wget mlocate ${EDITOR:-vi}
 mock -r ulyaoth-x86_64 --shell
 vi /usr/share/spin-kickstarts/install-ulyaoth.ks
-DVD: pungi --nosource --nodebuginfo --isfinal --bugurl https://github.com/ulyaoth/ulyaothos/issues --name Ulyaoth -c /usr/share/spin-kickstarts/install-ulyaoth.ks
+DVD: pungi --nomacboot --nosource --nodebuginfo --isfinal --bugurl https://github.com/ulyaoth/ulyaothos/issues --name Ulyaoth --ver 20160701 -c /usr/share/spin-kickstarts/install-ulyaoth.ks
 BOOTONLY: pungi --nosource --nodebuginfo -G -C -B --name Ulyaoth -c /usr/share/spin-kickstarts/install-ulyaoth.ks
 mock -r ulyaoth-$(uname -i) --copyout /20160701/x86_64/iso/Ulyaoth-DVD-x86_64-20160701.iso .
