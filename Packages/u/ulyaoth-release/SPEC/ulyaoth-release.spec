@@ -1,10 +1,10 @@
 %define debug_package %{nil}
 %global release_name Ulyaoth
-%global dist_version 20160702
+%global dist_version 20160701
 
 Summary: Ulyaoth release files
 Name: ulyaoth-release
-Version: 20160702
+Version: 20160701
 Release: 1%{?dist}
 License: GPLv3
 Group: System Environment/Base
@@ -109,5 +109,5 @@ rm -rf %{buildroot}
 %doc README.Ulyaoth-Release-Notes
 
 %changelog
-* Sat Jul 2 2016 Sjir Bagmeijer <sbagmeijer@ulyaoth.net> - 20160702-1
+* Fri Jul 1 2016 Sjir Bagmeijer <sbagmeijer@ulyaoth.net> - 20160701-1
 - Initial Release based on Fedora 24 spec file.
