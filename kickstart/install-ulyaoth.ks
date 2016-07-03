@@ -9,6 +9,8 @@ repo --name=ulyaoth --baseurl=https://repos.ulyaoth.net/ulyaothos/x86_64/os/
 %packages
 @core --nodefaults
 @anaconda-tools
+kernel
+-kernel-debug
 
 ## Add Generic packages and remove fedora packages. 
 generic-logos

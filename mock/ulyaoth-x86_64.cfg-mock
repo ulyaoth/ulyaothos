@@ -5,6 +5,11 @@ config_opts['chroot_setup_cmd'] = 'install @buildsys-build'
 config_opts['dist'] = 'rawhide'  # only useful for --resultdir variable subst
 config_opts['extra_chroot_dirs'] = [ '/run/lock', ]
 
+config_opts['plugin_conf']['bind_mount_enable'] = True
+config_opts['plugin_conf']['bind_mount_opts']['dirs'].append(('/dev','/dev/'))
+config_opts['plugin_conf']['bind_mount_opts']['dirs'].append(('/dev/pts','/dev/pts/'))
+config_opts['plugin_conf']['bind_mount_opts']['dirs'].append(('/dev/shm','/dev/shm/'))
+
 config_opts['package_manager'] = 'dnf'
 
 config_opts['yum.conf'] = """
@@ -29,6 +34,6 @@ name=Ulyaoth
 baseurl=https://repos.ulyaoth.net/ulyaothos/x86_64/os/
 enabled=1
 gpgcheck=1
-gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-ulyaoth
+gpgkey=https://repos.ulyaoth.net/RPM-GPG-KEY-ulyaoth
 
 """
