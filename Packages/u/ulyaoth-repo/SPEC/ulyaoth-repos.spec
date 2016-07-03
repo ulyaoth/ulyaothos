@@ -2,7 +2,7 @@
 
 Summary: Ulyaoth package repositories
 Name: ulyaoth-repos
-Version: 20160702
+Version: 1.0
 Release: 1%{?dist}
 License: GPLv3
 Group: System Environment/Base
@@ -40,5 +40,5 @@ rm -rf $RPM_BUILD_ROOT
 /usr/share/licenses/ulyaoth/COPYING
 
 %changelog
-* Sat Jul 2 2016 Sjir Bagmeijer <sbagmeijer@ulyaoth.net> - 20160702-1
-- Initial Release..
+* Sun Jul 3 2016 Sjir Bagmeijer <sbagmeijer@ulyaoth.net> - 1.0-1
+- Initial Release.
