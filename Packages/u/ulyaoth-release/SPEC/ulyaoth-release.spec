@@ -74,8 +74,7 @@ cat >> %{buildroot}%{_rpmconfigdir}/macros.d/macros.dist << EOF
 # dist macros.
 
 %%ulyaoth		%{dist_version}
-%%dist		.uly%{dist_version}
-%%uly%{dist_version}		1
+%%dist		.uly
 EOF
 
 # Add presets
